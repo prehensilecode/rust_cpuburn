@@ -20,6 +20,11 @@ cpuburn
 
 Press ^C to terminate it.
 
+## Dockerfile
+
+This repository also contains a Dockerfile which utilizes staged builds to
+give you a very small container to launch it into e.g. your Kubernetes cluster.
+
 ## License
 
 MIT
