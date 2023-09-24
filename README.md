@@ -1,6 +1,6 @@
 # cpuburn: a rust tool for maximizing your CPU usage
 
-This tool will take all your cores and throttle them. Nice for testing stress
+This tool will take all your cores and use all of them. Nice for testing stress
 as well as CPU throttling (for instance in a VM or container environment).
 
 This tool is named after the old cpuburn linux tool. I just wanted to whip up
