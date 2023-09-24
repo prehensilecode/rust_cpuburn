@@ -22,8 +22,11 @@ Press ^C to terminate it.
 
 ## Dockerfile
 
-This repository also contains a Dockerfile which utilizes staged builds to
+This repository also contains Dockerfiles which utilize staged builds to
 give you a very small container to launch it into e.g. your Kubernetes cluster.
+
+`Dockerfile` builds the source repository; `Dockerfile.release` builds from
+[crates.io](https://crates.io/crate/cpuburn).
 
 ## License
 
